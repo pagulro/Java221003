@@ -21,5 +21,10 @@ class AssignmentOperators {
         long longVar = intVar;
         intVar += 35;               // increments with 35
         longVar *= 3;               // multiply by 3
+        longVar = 9000000000L;
+        intVar = (int) longVar;
+
+        System.out.println(longVar);
+        System.out.println(intVar);
     }
 }

@@ -16,7 +16,7 @@ class ComparisonOperators {
         float nr1 = 0.1f;
         double nr2 = 0.7d;
         int nr3 = 8;
-        System.out.println(nr3 == (nr1 + nr2) * 10); // false
+        System.out.println((nr1 + nr2) * 10); // false
 
         System.out.println(5 > 3);      // true
         System.out.println(5 < 3);      // false

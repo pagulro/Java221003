@@ -9,7 +9,7 @@ package course.chapter01;
 class LogicOperators {
 
     public static void main(String[] args) {
-        double nr1 = Math.random() * 1000;
+        double nr1 = Math.random() * 1000;   // [0, 1)
         double nr2 = Math.random() * 1000;
 
         System.out.println("Your numbers are: " + nr1 + " and " + nr2);

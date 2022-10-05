@@ -15,6 +15,8 @@ class VariableDeclaration{
     public static void main(String[] args){
         int number1;            // declared and not initialized
         number1 = 10;           // initialized
+        System.out.println(number1 + "initial");
+        number1 = 99;
         String name = "John";   // declared and initialized
         System.out.println(name + " is number " + number1);     // variable use
     }
